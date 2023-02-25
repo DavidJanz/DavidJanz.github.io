@@ -76,9 +76,9 @@ const PUBITEM = ({author, title, venue, citationKey, bibentry}) =>
     <b>${title}</b><br>
     ${venue}
     <br>
-    <a class="pdf-click" target="_blank">[PDF]</a> 
-    <a class="code-click" target="_blank">[CODE]</a> 
-    <a class="bib-click">[BIBTEX]</a>
+    <a role="button" class="pdf-click" target="_blank">[PDF]</a> 
+    <a role="button" class="code-click" target="_blank">[CODE]</a> 
+    <a role="button" class="bib-click" href="javascript:;">[BIBTEX]</a>
     <div class="bibEntry">${bibentry}</div>
 </div>`;
 

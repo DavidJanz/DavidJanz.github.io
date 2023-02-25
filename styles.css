@@ -7,6 +7,25 @@ body {
     padding: 0px;
 }
 
+a:link {
+    cursor: pointer;
+    color: black;
+    opacity: 0.9;
+    /* text-decoration: none; */
+}
+    
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color: hotpink;
+}
+  
+a:active {
+    color: hotpink;
+}
+
 .bibEntry {
     line-height: 1.5; 
     font-family: monospace;
@@ -15,7 +34,6 @@ body {
     background-color: lightgray;
     display: none;
 }
-
 
 #main {
     width: 800px;
@@ -29,9 +47,13 @@ body {
     /* background-color: gray; */
 }
 
-
 p {
     text-align: justify;
+}
+
+span.email {
+    font-family: monospace;
+    font-size: 120%;
 }
 
 .content, .publications {
