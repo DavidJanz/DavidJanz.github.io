@@ -1,0 +1,47 @@
+body {
+    font-family: Arial,Helvetica,Verdana,"Lucida Grande",Lucida sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    opacity: 0.8;
+    font-size: 15;
+    padding: 0px;
+}
+
+.bibEntry {
+    line-height: 1.5; 
+    font-family: monospace;
+    white-space: pre-wrap;
+    padding: 10px;
+    background-color: lightgray;
+    display: none;
+}
+
+
+#main {
+    width: 800px;
+    margin: 0 auto 50px auto;
+    padding: 0;
+}
+
+
+#header {
+    padding: 0px;
+    /* background-color: gray; */
+}
+
+
+p {
+    text-align: justify;
+}
+
+.content, .publications {
+    margin: 0 0 30px 0;
+}
+
+.publications {
+    text-align: left;
+}
+
+.pdf-click, .code-click {
+    display: none;
+}

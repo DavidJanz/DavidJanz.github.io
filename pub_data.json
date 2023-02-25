@@ -1,0 +1,60 @@
+{
+    "janz2022sequential": 
+    {
+        "pdf": "https://www.repository.cam.ac.uk/bitstream/handle/1810/337458/main.pdf"
+    },
+
+    "steinrucken2018automatic": 
+    {
+        "pdf": "https://www.automl.org/wp-content/uploads/2019/05/AutoML_Book.pdf"
+    },
+
+    "antoran2023sampling": 
+    {
+        "pdf" : "https://arxiv.org/pdf/2210.04994",
+        "code": "https://github.com/cambridge-mlg/sampled-laplace"
+    },
+
+    "antoran2022adapting":
+    {
+        "pdf": "https://arxiv.org/pdf/2206.08900.pdf"
+    },
+
+    "janz2019bounds": 
+    {
+        "pdf": "https://arxiv.org/pdf/2001.10396.pdf",
+        "code": "https://github.com/DavidJanz/Hierarchical-GP-UCB"
+    },
+
+    "janz2018successor":
+    {
+        "pdf": "https://arxiv.org/pdf/1810.06530.pdf",
+        "code": "https://github.com/DavidJanz/successor_uncertainties_atari"
+    },
+
+    "kendall2018learning":
+    {
+        "pdf": "https://arxiv.org/pdf/1807.00412.pdf"
+    },
+
+    "janz2018learning":
+    {
+        "pdf": "https://arxiv.org/pdf/1712.01664.pdf",
+        "code": "https://github.com/DavidJanz/molecule_grammar_rnn"
+    },
+
+    "antoran2021linearised":
+    {
+        "pdf": "https://openreview.net/pdf?id=uUH8x-h9zdB"
+    },
+
+    "janz2017actively":
+    {
+        "pdf": "https://arxiv.org/pdf/1708.04465.pdf"
+    },
+
+    "janz2016probabilistic":
+    {
+        "pdf": "https://arxiv.org/pdf/1611.06863.pdf"
+    }
+}
