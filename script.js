@@ -53,13 +53,22 @@ function getPubData(bibEntry) {
     const tags = bibEntry.entryTags;
 
     var venueStr = '';
-    if (bibEntry.entryType == 'phdthesis') {
-        venueStr += tags.school;
-    } else {
-        venueStr += latexReplace(tags.booktitle);
+    if ('booktitle' in tags) {
+        if (bibEntry.entryType == 'phdthesis') {
+            venueStr += tags.school;
+        } else {
+            venueStr += latexReplace(tags.booktitle);
+        }
+        venueStr +=  ', ' + tags.year;
     }
-    venueStr +=  ', ' + tags.year;
-    
+    if('note' in tags) {
+        venueStr += ' (' + tags.note +')'
+    }
+
+    if (venueStr) {
+        venueStr += '<br>'
+    }
+
     return {
         "author": processAuthors(latexReplace(tags.author)),
         "title": latexReplace(tags.title),
@@ -75,7 +84,6 @@ const PUBITEM = ({author, title, venue, citationKey, bibentry}) =>
     ${author}<br>
     <b>${title}</b><br>
     ${venue}
-    <br>
     <a role="button" class="pdf-click" target="_blank">[PDF]</a> 
     <a role="button" class="code-click" target="_blank">[CODE]</a> 
     <a role="button" class="bib-click" href="javascript:;">[BIBTEX]</a>
@@ -95,7 +103,7 @@ function makePubEntries(bibJSON) {
 
 
 $(document).ready(function() {
-    const bibTypes = ["books", "conferences", "workshops"];
+    const bibTypes = ["bandit", "bayesian", "applied"];
     const bibReady = [$.Deferred(), $.Deferred(), $.Deferred()];
 
     $.when.apply($, bibReady).then(function() {

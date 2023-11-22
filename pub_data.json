@@ -1,4 +1,26 @@
 {
+    "janz2023ensemble":
+    {
+        "pdf": "https://arxiv.org/pdf/2311.08376"
+    },
+
+    "janz2023exploration":
+    {
+        "pdf": "https://arxiv.org/pdf/2311.07565"
+    },
+
+    "lin2023stochastic":
+    {
+        "pdf": "https://arxiv.org/pdf/2310.20581",
+        "code": "https://anonymous.4open.science/r/sdd-gps-5486"
+    },
+
+    "lin2023sampling":
+    {
+        "pdf": "https://arxiv.org/pdf/2306.11589",
+        "code": "https://github.com/cambridge-mlg/sgd-gp"
+    },
+
     "janz2022sequential": 
     {
         "pdf": "thesis/djanz_thesis.pdf"
@@ -17,7 +39,8 @@
 
     "antoran2022adapting":
     {
-        "pdf": "https://arxiv.org/pdf/2206.08900.pdf"
+        "pdf": "https://arxiv.org/pdf/2206.08900.pdf",
+        "code": "https://github.com/cambridge-mlg/sampled-laplace"
     },
 
     "janz2019bounds": 
